@@ -12,7 +12,7 @@
         <activity
             android:name=".HelpActivity"
             android:exported="true"
-            android:label="HelpActivity"/>
+            android:label="Help Activity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
