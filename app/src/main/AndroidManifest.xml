@@ -12,11 +12,11 @@
         <activity
             android:name=".HelpActivity"
             android:exported="true"
-            android:label="Help Activity"/>
+            android:label="HelpActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="Main Activity">
+            android:label="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
