@@ -10,9 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProteinTracker">
         <activity
+            android:name=".ProteinTrackerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TableActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ConstraintActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LayoutActivity"
+            android:exported="true" />
+        <activity
             android:name=".HelpActivity"
             android:exported="true"
-            android:label="Help Activity"/>
+            android:label="Help Activity" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

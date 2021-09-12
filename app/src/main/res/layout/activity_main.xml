@@ -46,9 +46,62 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Help"
+        app:layout_constraintBottom_toTopOf="@+id/btn_constraint"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_ambil_nama" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_ambil_nama"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Linear"
+        app:layout_constraintBottom_toTopOf="@+id/btn_tracker"
+        app:layout_constraintEnd_toStartOf="@+id/btn_constraint"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_help"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <Button
+        android:id="@+id/btn_constraint"
+        android:layout_width="139dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="24dp"
+        android:text="Constraint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_table"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <Button
+        android:id="@+id/btn_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="Tabel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <Button
+        android:id="@+id/btn_tracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Protein"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_constraint"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

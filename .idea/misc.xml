@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_constraint.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_constraint2.xml" value="0.11614583333333334" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_help.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_layout.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_protein_tracker.xml" value="0.4" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_table.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/tes_linear.xml" value="0.13854166666666667" />
       </map>
     </option>
   </component>
