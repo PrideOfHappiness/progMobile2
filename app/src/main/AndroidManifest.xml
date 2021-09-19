@@ -10,6 +10,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProteinTracker">
         <activity
+            android:name=".DutaTani"
+            android:exported="true"
+            android:label="Duta Tani" />
+        <activity
+            android:name=".SampleListView"
+            android:exported="true"
+            android:label="List View" />
+        <activity
+            android:name=".SampleList"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ProteinTrackerActivity"
             android:exported="true" />
         <activity
@@ -27,14 +44,7 @@
             android:label="Help Activity" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:label="MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
