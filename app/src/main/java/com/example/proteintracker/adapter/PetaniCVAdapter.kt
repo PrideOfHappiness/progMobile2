@@ -6,31 +6,32 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.proteintracker.R
+import com.example.proteintracker.adapter.PetaniAdapter.PetaniHolder
 import com.example.proteintracker.model.Petani
 
-class PetaniAdapter (val petani: List<Petani>): RecyclerView.Adapter<com.example.proteintracker.adapter.PetaniAdapter.PetaniHolder>(){
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PetaniAdapter.PetaniHolder {
-        return PetaniHolder(LayoutInflater.from(parent.context).inflate(R.layout.rv_item_dutatani, parent, false))
+class PetaniCVAdapter (val petani: List<Petani>): RecyclerView.Adapter<PetaniCVAdapter.PetaniHolder>(){
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PetaniCVAdapter.PetaniHolder {
+        return PetaniHolder(LayoutInflater.from(parent.context).inflate(R.layout.cv_item_petani, parent, false))
     }
 
-    override fun onBindViewHolder(holder: PetaniAdapter.PetaniHolder, position: Int) {
+    override fun onBindViewHolder(holder: PetaniCVAdapter.PetaniHolder, position: Int) {
         holder.bindPetani (petani[position])
     }
 
     override fun getItemCount(): Int {
-       return petani.size
+        return petani.size
     }
 
-    class PetaniHolder(view: View) : RecyclerView.ViewHolder(view){
+    class PetaniHolder(view: View) : RecyclerView.ViewHolder(view) {
         lateinit var txtUser: TextView
         lateinit var txtNama: TextView
         lateinit var txtJumlahLahan: TextView
         lateinit var txtIdentifikasi: TextView
         lateinit var txtTambahLahan: TextView
 
-        fun bindPetani (petani: Petani){
+        fun bindPetani(petani: Petani) {
             itemView.apply {
-                txtUser = findViewById(R.id.txtUser)
+                txtUser = findViewById(R.id.txtUserCV)
                 txtNama = findViewById(R.id.txtNamaLengkap2)
                 txtJumlahLahan = findViewById(R.id.txtJumlahLahan)
                 txtIdentifikasi = findViewById(R.id.txtIdentifikasi)
@@ -45,8 +46,3 @@ class PetaniAdapter (val petani: List<Petani>): RecyclerView.Adapter<com.example
         }
     }
 }
-
-
-
-
-

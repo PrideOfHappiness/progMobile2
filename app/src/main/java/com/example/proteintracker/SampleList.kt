@@ -8,22 +8,29 @@ import android.widget.Button
 
 class SampleList : AppCompatActivity() {
     lateinit var btnShow : Button
-    lateinit var btnLahan : Button
+    lateinit var btnCard : Button
+    lateinit var btnRecycle : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sample_list)
 
         btnShow = findViewById(R.id.btnShowList)
-        btnLahan = findViewById(R.id.btnLahan)
+        btnRecycle = findViewById(R.id.btnSampleRV)
+        btnCard = findViewById(R.id.SampleCardView)
 
         btnShow.setOnClickListener( { view ->
             var intent = Intent(this@SampleList, SampleListView::class.java)
             startActivity(intent)
         })
 
-        btnLahan.setOnClickListener( { view ->
-            var intent = Intent(this@SampleList, LahanDutaTani::class.java)
+        btnRecycle.setOnClickListener( { view ->
+            var intent= Intent(this@SampleList, SampleRecyclerView::class.java)
+            startActivity(intent)
+        } )
+
+        btnCard.setOnClickListener( { view ->
+            var intent= Intent(this@SampleList, SampleCardView::class.java)
             startActivity(intent)
         } )
     }

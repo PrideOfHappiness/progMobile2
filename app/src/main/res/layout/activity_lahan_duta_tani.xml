@@ -17,7 +17,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <TextView
-            android:id="@+id/txtUser2"
+            android:id="@+id/txtUserName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
@@ -25,28 +25,28 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/txtNama"
+            android:id="@+id/txtNamaLengkap"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="Nama : Abdul Rohman" />
 
         <TextView
-            android:id="@+id/txtJumlahLahan"
+            android:id="@+id/txtJumlahLahanTerdaftar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="Total Jumlah Lahan : 1" />
 
         <TextView
-            android:id="@+id/txtIdentifikasi"
+            android:id="@+id/txtIdentifikasiLahan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="Jumlah Lahan Yang Sudah Teridentifikasi : 0" />
 
         <TextView
-            android:id="@+id/txtIdentifikasi3"
+            android:id="@+id/txtTambahLahanBlmterdaftar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
@@ -90,10 +90,10 @@
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="247dp">
+        app:layout_constraintTop_toBottomOf="@+id/ll_lahan1">
 
         <TextView
-            android:id="@+id/txtuser2"
+            android:id="@+id/txtUserName2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
@@ -101,28 +101,28 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/txtNama2"
+            android:id="@+id/txtNamaLengkap2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="Nama : Abuwiyono / Sukri" />
 
         <TextView
-            android:id="@+id/txtJumlahLahan2"
+            android:id="@+id/txtJumlahLahanTerdaftar2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="Total Jumlah Lahan : 1" />
 
         <TextView
-            android:id="@+id/txtIdentifikasi2"
+            android:id="@+id/txtIdentifikasiLahan2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="Jumlah Lahan Yang Sudah Teridentifikasi : 1" />
 
         <TextView
-            android:id="@+id/txtTambahLahan"
+            android:id="@+id/txtTambahLahanBlmterdaftar2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
@@ -132,15 +132,15 @@
 
     <LinearLayout
         android:id="@+id/ll_lahan3"
-        android:layout_width="366dp"
-        android:layout_height="116dp"
+        android:layout_width="379dp"
+        android:layout_height="111dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="386dp">
+        app:layout_constraintTop_toBottomOf="@+id/ll_lahan2">
 
         <TextView
-            android:id="@+id/txtUser3"
+            android:id="@+id/txtUserName3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
@@ -148,28 +148,28 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/txtNama3"
+            android:id="@+id/txtNamaLengkap3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="Nama : Adi Prajitno" />
 
         <TextView
-            android:id="@+id/txtJumlahLahan3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:text="Total Jumlah Lahan : 3" />
-
-        <TextView
-            android:id="@+id/txtIdentifikasi4"
+            android:id="@+id/txtIdentifikasiLahan3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="Jumlah Lahan Yang Sudah Teridentifikasi : 0" />
 
         <TextView
-            android:id="@+id/txtTambahLahan2"
+            android:id="@+id/txtJumlahLahanTerdaftar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Total Jumlah Lahan : 3" />
+
+        <TextView
+            android:id="@+id/txtTambahLahanBlmterdaftar3"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_weight="0"
@@ -179,15 +179,16 @@
 
     <LinearLayout
         android:id="@+id/ll_lahan4"
-        android:layout_width="367dp"
-        android:layout_height="109dp"
+        android:layout_width="355dp"
+        android:layout_height="112dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="534dp">
+        app:layout_constraintTop_toBottomOf="@+id/ll_lahan3">
 
         <TextView
-            android:id="@+id/txtUser4"
+            android:id="@+id/txtUserName4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
@@ -195,28 +196,28 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/txtNama4"
+            android:id="@+id/txtNamaLengkap4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="Nama : Adi pranoto" />
 
         <TextView
-            android:id="@+id/txtJumlahLahan4"
+            android:id="@+id/txtJumlahLahanTerdaftar4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="Total Jumlah Lahan : 3" />
 
         <TextView
-            android:id="@+id/txtIdentifikasi5"
+            android:id="@+id/txtIdentifikasiLahan4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="Jumlah Lahan Yang Sudah Teridentifikasi : 2" />
 
         <TextView
-            android:id="@+id/txtTambahLahan3"
+            android:id="@+id/txtTambahLahanBlmterdaftar4"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_weight="0"
