@@ -9,11 +9,11 @@ object dataRecycler {
         "F3",
         "F4"
     )
-    private var nama = arrayOf(
+    private var namaLengkap = arrayOf(
         "Renaldi Soeryadi",
-        "Renaldi Soeryadi",
-        "Renaldi Soeryadi",
-        "Renaldi Soeryadi"
+        "Gabriel Manaor",
+        "Christoper Dori",
+        "Renata"
     )
 
     private var jumlahLahan = arrayOf(
@@ -43,7 +43,7 @@ object dataRecycler {
             for (position in dataRecycler.user.indices) {
                 val petani = Petani()
                 petani.user = dataRecycler.user[position]
-                petani.nama = dataRecycler.nama[position]
+                petani.nama = dataRecycler.namaLengkap[position]
                 petani.jumlahLahan = dataRecycler.jumlahLahan[position]
                 petani.identifikasi = dataRecycler.identifikasi[position]
                 petani.tambahLahan = dataRecycler.tambahLahan[position]
