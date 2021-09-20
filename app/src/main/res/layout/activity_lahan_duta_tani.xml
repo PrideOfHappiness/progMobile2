@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LahanDutaTani">
+
+    <LinearLayout
+        android:id="@+id/ll_lahan1"
+        android:layout_width="366dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <TextView
+            android:id="@+id/txtUser2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="abdulrohma"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Nama : Abdul Rohman" />
+
+        <TextView
+            android:id="@+id/txtJumlahLahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Total Jumlah Lahan : 1" />
+
+        <TextView
+            android:id="@+id/txtIdentifikasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Jumlah Lahan Yang Sudah Teridentifikasi : 0" />
+
+        <TextView
+            android:id="@+id/txtIdentifikasi3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Jumlah Lahan Yang Sudah Teridentifikasi : 0" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_judul2"
+        android:layout_width="408dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:background="#4CAF50"
+        android:paddingLeft="12dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="12dp"
+        android:paddingRight="12dp"
+        android:text="Daftar lahan Petani"
+        android:textColor="#263238"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="54dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_judul2"
+        app:srcCompat="@drawable/search" />
+
+    <LinearLayout
+        android:id="@+id/ll_lahan2"
+        android:layout_width="376dp"
+        android:layout_height="105dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="247dp">
+
+        <TextView
+            android:id="@+id/txtuser2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="abuwiyono"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtNama2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Nama : Abuwiyono / Sukri" />
+
+        <TextView
+            android:id="@+id/txtJumlahLahan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Total Jumlah Lahan : 1" />
+
+        <TextView
+            android:id="@+id/txtIdentifikasi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Jumlah Lahan Yang Sudah Teridentifikasi : 1" />
+
+        <TextView
+            android:id="@+id/txtTambahLahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Lahan Yang Bisa Ditambahkan : 0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_lahan3"
+        android:layout_width="366dp"
+        android:layout_height="116dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="386dp">
+
+        <TextView
+            android:id="@+id/txtUser3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="adiprajitn"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtNama3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Nama : Adi Prajitno" />
+
+        <TextView
+            android:id="@+id/txtJumlahLahan3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Total Jumlah Lahan : 3" />
+
+        <TextView
+            android:id="@+id/txtIdentifikasi4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Jumlah Lahan Yang Sudah Teridentifikasi : 0" />
+
+        <TextView
+            android:id="@+id/txtTambahLahan2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            android:text="Lahan Yang Bisa Ditambahkan : 3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_lahan4"
+        android:layout_width="367dp"
+        android:layout_height="109dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="534dp">
+
+        <TextView
+            android:id="@+id/txtUser4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="adipranot2"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtNama4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Nama : Adi pranoto" />
+
+        <TextView
+            android:id="@+id/txtJumlahLahan4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Total Jumlah Lahan : 3" />
+
+        <TextView
+            android:id="@+id/txtIdentifikasi5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Jumlah Lahan Yang Sudah Teridentifikasi : 2" />
+
+        <TextView
+            android:id="@+id/txtTambahLahan3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            android:text="Lahan Yang Bisa Ditambahkan : 1" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

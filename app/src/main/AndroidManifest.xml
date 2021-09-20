@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProteinTracker">
         <activity
+            android:name=".SampleRecyclerView"
+            android:exported="true" />
+        <activity
+            android:name=".LahanDutaTani"
+            android:exported="true" />
+        <activity
             android:name=".DutaTani"
             android:exported="true"
             android:label="Duta Tani" />
@@ -44,7 +50,7 @@
             android:label="Help Activity" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
