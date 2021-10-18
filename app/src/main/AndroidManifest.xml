@@ -12,11 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProteinTracker">
         <activity
+            android:name=".crud.AddPetaniActivity"
+            android:exported="true" />
+        <activity
+            android:name=".crud.UpdatePetaniActivity"
+            android:exported="true" />
+        <activity
+            android:name=".crud.GetPetaniActivity"
+            android:exported="true" />
+        <activity
             android:name=".GetAPIActivity"
             android:exported="true" />
         <activity
             android:name=".ServiceActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -43,7 +52,6 @@
         <activity
             android:name=".SampleList"
             android:exported="true" />
-
         <activity
             android:name=".ProteinTrackerActivity"
             android:exported="true" />

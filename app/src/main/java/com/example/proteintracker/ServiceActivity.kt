@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import com.example.proteintracker.crud.GetPetaniActivity
 
 class ServiceActivity : AppCompatActivity() {
     lateinit var btnGet : Button
@@ -17,7 +18,7 @@ class ServiceActivity : AppCompatActivity() {
 
         btnGet = findViewById(R.id.btnGetAPI)
         btnGet.setOnClickListener(View.OnClickListener { view ->
-            var intent = Intent(this@ServiceActivity, GetAPIActivity::class.java)
+            var intent = Intent(this@ServiceActivity, GetPetaniActivity::class.java)
             startActivity(intent)
         })
     }

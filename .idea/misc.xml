@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_add_petani.xml" value="0.12244897959183673" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_constraint.xml" value="0.264" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_constraint2.xml" value="0.11614583333333334" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_duta_tani.xml" value="0.4" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_get_apiactivity.xml" value="0.176" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_get_petani.xml" value="0.23641304347826086" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_help.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_lahan_duta_tani.xml" value="0.4" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_layout.xml" value="0.13020833333333334" />
@@ -18,9 +20,11 @@
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_sample_recycler_view.xml" value="0.12916666666666668" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_service.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_table.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/activity_update_petani.xml" value="0.536" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/cv_item_petani.xml" value="0.24320652173913043" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/rv_data_user.xml" value="0.6" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/rv_item_dutatani.xml" value="0.18867924528301888" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/rv_item_petani.xml" value="0.536" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/layout/tes_linear.xml" value="0.13854166666666667" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/ProteinTracker/app/src/main/res/menu/menu_sample_list_view.xml" value="0.2" />
       </map>
