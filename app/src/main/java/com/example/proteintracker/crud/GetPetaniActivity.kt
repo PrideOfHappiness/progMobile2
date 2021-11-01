@@ -61,6 +61,9 @@ class GetPetaniActivity : AppCompatActivity() {
         rvPetani = findViewById(R.id.rvPetani)
         fabAddPetani = findViewById(R.id.fabAddPetani)
         shredPref = getSharedPreferences(pref_name, Context.MODE_PRIVATE)
+        var tmpEmail = shredPref.getString("email", null)
+        val actionBar = supportActionBar
+        actionBar!!.title = "Halaman Admin - " + tmpEmail
 
         NetworkConfig().getService()
             .getPetaniAll()

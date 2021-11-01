@@ -31,6 +31,7 @@ class LoginActivity : AppCompatActivity() {
         var tmpEmail = shredRef.getString("email", null)
         var tmpPassword = shredRef.getString("password", null)
 
+
         if(!tmpEmail.isNullOrEmpty() && !tmpPassword.isNullOrBlank()){
             finish()
             var intent = Intent(this@LoginActivity, GetPetaniActivity::class.java)
